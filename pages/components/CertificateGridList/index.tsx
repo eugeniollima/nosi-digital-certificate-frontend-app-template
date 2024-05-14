@@ -18,8 +18,8 @@ function CertificateGridList({ address, onImport }: IProps) {
     const filteredCertificates = data;
 
     return (
-        <div className='px-4 pt-6 pb-4'>
-            <div className='flex justify-between items-center mb-2'>
+        <div className='px-4 pt-6 pb-4 '>
+            <div className='flex justify-between items-center mb-9'>
                 <Label className="text-3xl font-bold">My Digital Certificates</Label>
                 <button className='p-2 bg-emerald-600 flex items-center justify-center gap-2  px-4' onClick={onImport}>
                     <Label className='text-white' >Importar Certificado</Label>

@@ -128,7 +128,7 @@ const Account: React.FC<HomeProps> = ({ certificates }) => {
 
 
       {/* LIST */}
-      <div className="container-fluid mx-auto bg-slate-200 dark:bg-slate-700">
+      <div className="container-fluid mx-auto bg-white dark:bg-slate-700">
         <div className="flex" id="main-body-list">
           <div className="flex-1 flex flex-col">
             {
